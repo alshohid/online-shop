@@ -1,0 +1,30 @@
+.sign-form-container {
+  width: 450px;
+  margin: 0 auto;
+}
+.sign-form {
+  width: 350px;
+  background-color: rgb(228, 227, 227);
+
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.sign-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.from-field {
+  padding: 5px;
+  width: 300px;
+  margin: 0 auto;
+}
+#submit {
+  background: #232f3e;
+  color: aliceblue;
+}
+#submit:hover {
+  transition: 0.3s;
+  background-color: aliceblue;
+  color: #232f3e;
+}

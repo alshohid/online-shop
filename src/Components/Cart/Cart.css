@@ -1,0 +1,25 @@
+/* .cart-div {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 5px;
+  margin-left: 5px;
+  position: fixed;
+  height: 100vh;
+  background-color: #ffffff;
+} */
+.cart-div h1,
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+/* .cart-div small {
+  margin-left: 10px;
+  position: relative;
+  right: 0;
+  top: 0;
+} */
+.cart-flex ul {
+  border-bottom: 1px solid lightgray;
+  list-style: none;
+}

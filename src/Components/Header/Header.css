@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: hwb(212 7% 87%);
+  position: relative;
+  width: 100vw;
+}
+.manage-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.heading-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading-text h1 {
+  position: relative;
+  font-family: math;
+  top: 13px;
+  color: rgb(206, 209, 211);
+}
+.header-logo img {
+  position: relative;
+  left: 0;
+  top: 3px;
+  height: 75px;
+  width: 130px;
+}
+.search-box {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #232f3e;
+}
+#search {
+  width: 400px;
+}
+#search:focus {
+  width: 600px;
+}
+.nav-div {
+  background-color: #232f3e;
+}
+/* nav {
+  background: transparent;
+  line-height: 35px;
+  font-size: 20px;
+  color: aliceblue;
+} */
+.nav-div a {
+  color: aliceblue;
+}
+
+nav a:hover {
+  background-color: grey;
+  color: lightyellow;
+  border-radius: 3px;
+}
+.nav {
+  position: relative;
+  transition: top 0.3s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #232f3e; /* Replace with your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Replace with your desired box shadow */
+}
